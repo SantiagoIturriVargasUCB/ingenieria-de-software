@@ -1,4 +1,4 @@
-import { languageSpanish } from './language';
+import { languageSpanish } from "./language";
 
 const greetButton = document.getElementById('greet-button-by-name');
 const nameInput = document.getElementById('name-input');
@@ -11,3 +11,4 @@ greetButton.addEventListener('click', () => {
         alert(greeting);
     }
 });
+
