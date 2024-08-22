@@ -23,3 +23,7 @@ test('debe retornar fizz mutiplos de 5', () => {
     expect(fizzbuzz(10)).toBe('Fizz');
     expect(fizzbuzz(25)).toBe('Fizz');
 });
+
+test('debe retornar fizzbuzz para el 15', () => { 
+    expect(fizzbuzz(15)).toBe('FizzBuzz');
+});
