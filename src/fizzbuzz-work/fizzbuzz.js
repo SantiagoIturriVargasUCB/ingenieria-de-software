@@ -23,7 +23,5 @@ document.getElementById('generate').addEventListener('click', () => {
     if (limite && limite > 0) {
         const sequence = generarSecuencia(limite);
         resultDiv.innerHTML = sequence.join(', ');
-    } else {
-        resultDiv.innerHTML = 'Please enter a valid number';
-    }
+    } else resultDiv.innerHTML = 'Please enter a valid number';
 });
