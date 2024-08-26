@@ -1,7 +1,7 @@
 export const isLeapYear = year => {
-    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0)  return true;
-    else  return false;
-}
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) return true;  
+    else return false;
+};
 
 const checkLeapYear = () => {
     const year = document.getElementById('yearInput').value;
@@ -12,4 +12,5 @@ const checkLeapYear = () => {
     
     document.getElementById("verifyButton").addEventListener("click", checkLeapYear);
 }
+
 
