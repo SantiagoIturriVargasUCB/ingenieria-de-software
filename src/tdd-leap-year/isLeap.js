@@ -9,5 +9,3 @@ document.getElementById("verifyButton").addEventListener("click", () => {
     if (leapYear) alert(`El año ${year} es bisiesto.`);
     else alert(`El año ${year} no es bisiesto.`);
 });
-
-
