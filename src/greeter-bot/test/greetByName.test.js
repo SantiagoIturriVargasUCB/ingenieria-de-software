@@ -1,4 +1,4 @@
-import { greetByName } from '../javascript/greetByName';
+import { greetByName } from '../javascript';
 
 test('should greet by name with "Hola" when isSpanish is true', () => {
   expect(greetByName('Juan', true)).toBe('Hola, Juan');

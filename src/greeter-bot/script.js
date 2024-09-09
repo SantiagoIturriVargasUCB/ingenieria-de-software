@@ -1,9 +1,5 @@
-import { greet } from './greet';
-import { greetByName } from './greetByName';
-import { greetByGender } from './greetByGender';
-import { isSpanish } from './language';
+import { greet, greetByName, greetByGender, isSpanish } from './javascript';
 
-// Greet button
 const alertButton = document.getElementById('greet-button');
 alertButton.addEventListener('click', () => {
   const languageSpanishCheckbox = document.getElementById('language-spanish');

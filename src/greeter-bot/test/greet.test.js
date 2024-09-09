@@ -1,4 +1,4 @@
-import { greet } from '../javascript/greet';
+import { greet } from '../javascript';
 
 test('should greet with "Hola" when isSpanish is true', () => {
   expect(greet(true)).toBe('Hola');

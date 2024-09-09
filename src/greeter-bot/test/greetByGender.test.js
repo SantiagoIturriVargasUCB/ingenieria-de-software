@@ -1,4 +1,4 @@
-import { greetByGender } from '../javascript/greetByGender';
+import { greetByGender } from '../javascript';
 
 test('should greet by gender as "Sr." when isSpanish is true and isMale is true', () => {
   expect(greetByGender('Juan', true, true)).toBe('Hola, Sr. Juan');
