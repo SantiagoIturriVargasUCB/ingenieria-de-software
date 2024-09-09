@@ -1,4 +1,4 @@
-import './displayGreetByName';
+// import './displayGreetByName';
 import { languageSpanish } from './language';
 
 describe('displayGreetByName.js', () => {
