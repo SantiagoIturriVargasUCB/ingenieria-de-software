@@ -1,0 +1,1 @@
+export function greet(isSpanish) { return isSpanish ? 'Hola' : 'Hello'; }

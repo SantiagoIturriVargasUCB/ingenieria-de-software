@@ -1,2 +1,1 @@
-export const languageEnglish = document.getElementById('language-english');
-export const languageSpanish = document.getElementById('language-spanish');
+export const isSpanish = (languageElement) => languageElement.checked;
