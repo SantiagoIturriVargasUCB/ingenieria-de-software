@@ -1,3 +1,4 @@
+
 import { greet, greetByName, greetByGender, isSpanish } from './javascript';
 
 const alertButton = document.getElementById('greet-button');
@@ -7,7 +8,6 @@ alertButton.addEventListener('click', () => {
   alert(greeting);
 });
 
-// Greet by name button
 const greetButtonByName = document.getElementById('greet-button-by-name');
 greetButtonByName.addEventListener('click', () => {
   const languageSpanishCheckbox = document.getElementById('language-spanish');
@@ -16,12 +16,9 @@ greetButtonByName.addEventListener('click', () => {
   if (name) {
     const greeting = greetByName(name, isSpanish(languageSpanishCheckbox));
     alert(greeting);
-  } else {
-    alert('Please introduce your name.');
-  }
+  } else alert('Please introduce your name.');
 });
 
-// Greet by gender button
 const greetButtonByGender = document.getElementById('greet-button-by-gender');
 greetButtonByGender.addEventListener('click', () => {
   const languageSpanishCheckbox = document.getElementById('language-spanish');
